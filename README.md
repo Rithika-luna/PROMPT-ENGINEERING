@@ -71,13 +71,13 @@ Step 7: Finalize and Export
 
 The main objective of this report is to develop a comprehensive understanding of Generative Artificial Intelligence and Large Language Models (LLMs). It explains their fundamental concepts, architectures, training processes, applications, advantages, limitations, ethical considerations, and future developments.
 
-1.2 Identify the Target Audience
+## 1.2 Identify the Target Audience
 
 The report is designed for undergraduate engineering students, beginners in Artificial Intelligence, and individuals interested in understanding modern AI technologies.
 
 The explanations are presented using simple English, technical definitions, diagrams, comparisons, and real-world examples.
 
-1.3 Identify the Core Topics
+## 1.3 Identify the Core Topics
 
 The following topics were selected for the report:
 1. Introduction to Artificial Intelligence and Machine Learning.
@@ -90,12 +90,12 @@ The following topics were selected for the report:
 8. Limitations and ethical considerations.
 9. Impact of scaling in LLMs.
 10. Future trends in Generative AI.
-STEP 2: CREATE REPORT SKELETON AND STRUCTURE
-2.1 Title Page
+# STEP 2: CREATE REPORT SKELETON AND STRUCTURE
+## 2.1 Title Page
 
 A professional title page was prepared containing the experiment title, subject name, and student details.
 
-2.2 Abstract / Executive Summary
+## 2.2 Abstract / Executive Summary
 
 Generative Artificial Intelligence is an advanced technology that enables computers to generate new content such as text, images, audio, video, and computer programs.
 
@@ -105,8 +105,8 @@ It also describes how LLMs are trained using large datasets, how they process na
 
 The purpose of this report is to provide a clear understanding of how Generative AI works and how it can be used effectively in real-world applications.
 
-2.3 Table of Contents
-S.No.	Topics
+## 2.3 Table of Contents
+### S.No.	Topics
 1	Introduction to AI and ML
 2	Fundamentals of Generative AI
 3	Types of Generative AI Models
@@ -123,7 +123,7 @@ S.No.	Topics
 
 Page numbers can be added after formatting the report in Microsoft Word or PDF.
 
-2.4 Introduction
+# 2.4 Introduction
 
 Artificial Intelligence has become an important part of modern technology. It allows computers to perform tasks that generally require human intelligence, such as learning, reasoning, problem-solving, and decision-making.
 
@@ -133,8 +133,8 @@ Large Language Models are an important application of Generative AI. They can un
 
 The development of Transformer architecture has played a major role in improving the capabilities of modern language models.
 
-2.5 Main Body of the Report
-2.5.1 Introduction to Artificial Intelligence and Machine Learning
+## 2.5 Main Body of the Report
+## 2.5.1 Introduction to Artificial Intelligence and Machine Learning
 Artificial Intelligence (AI) is a branch of computer science that develops systems capable of performing tasks that normally require human intelligence.
 
 Machine Learning (ML) is a subset of AI that enables computers to learn from data and improve their performance without being explicitly programmed for every situation.
@@ -148,7 +148,7 @@ Relationship between AI, ML, and DL:
 - ML is a part of AI.
 - DL is a part of ML.
 Example: An email application learns from previously identified spam messages and automatically classifies new unwanted emails.
-2.5.2 What is Generative AI?
+## 2.5.2 What is Generative AI?
 Generative AI is a type of Artificial Intelligence that creates new content by learning patterns and relationships from existing training data.
 
 It can generate:
@@ -157,7 +157,7 @@ It can generate:
 - Audio and music.
 - Videos and animations.
 - Computer programs and code.
-Working Process of Generative AI:
+## Working Process of Generative AI:
 1. The user provides instructions in the form of a prompt.
 2. The model processes and interprets the input.
 3. The model identifies relevant patterns learned during training.
@@ -166,7 +166,7 @@ Working Process of Generative AI:
 
 <img width="1020" height="586" alt="image" src="https://github.com/user-attachments/assets/b7f929f7-dc1c-4f42-993a-db8bc77df12d" />
 
-Real-world examples:
+## Real-world examples:
 AI Tool	Application
 ChatGPT	Text generation and question answering
 DALL-E	Image generation
@@ -174,17 +174,17 @@ Google Gemini	AI assistance and multimodal tasks
 GitHub Copilot	Code generation
 
 Simple analogy: Generative AI works like an artist who studies different paintings, understands their patterns and styles, and then creates a new painting based on an instruction.
-2.5.3 Types of Generative AI Models
+## 2.5.3 Types of Generative AI Models
 Generative AI uses different model architectures to create new content.
 
-A. Generative Adversarial Networks (GANs)
+# A. Generative Adversarial Networks (GANs)
 
 GANs are generative models consisting of two neural networks: a Generator and a Discriminator.
 - Generator: Creates artificial data using random input.
 - Discriminator: Identifies whether the generated data is real or fake.
 Both networks compete during training, improving the quality of generated content.
 
-Working process:
+### Working process:
 1. Random noise is provided to the Generator.
 2. The Generator creates artificial data.
 3. The Discriminator examines the generated data and real data.
@@ -193,30 +193,30 @@ Working process:
 <img width="991" height="577" alt="image" src="https://github.com/user-attachments/assets/3212db25-4987-48a1-b993-b0a893223a2c" />
 
 
-Example: Creating realistic artificial human faces.
+### Example: Creating realistic artificial human faces.
 
-B. Variational Autoencoders (VAEs)
+# B. Variational Autoencoders (VAEs)
 
 VAEs are generative models that learn compressed representations of input data and use them to generate new samples.
 
-They contain two main components:
+### They contain two main components:
 - Encoder: Converts input data into a compressed representation called latent space.
 - Decoder: Uses the latent representation to reconstruct existing data or generate new data.
 
 <img width="1027" height="570" alt="image" src="https://github.com/user-attachments/assets/a35ca176-49e2-4a6d-87d0-e1516408705b" />
 
-Working process:
+### Working process:
 1. Input data is given to the Encoder.
 2. The Encoder learns a compressed representation.
 3. A latent representation is sampled.
 4. The Decoder reconstructs or generates data.
 Example: Generating new handwritten digit images.
 
-C. Diffusion Models
+# C. Diffusion Models
 
 Diffusion models are generative models that create new content by learning to remove noise from data.
 
-Working process:
+### Working process:
 1. Noise is gradually added to training images.
 2. The model learns the process of removing noise.
 3. During generation, random noise is provided.
@@ -227,21 +227,21 @@ Working process:
 
 
 
-Example: Generating a picture of a mountain landscape from a text prompt.
+### Example: Generating a picture of a mountain landscape from a text prompt.
 
-Comparison of GANs, VAEs, and Diffusion Models
+### Comparison of GANs, VAEs, and Diffusion Models
 Feature	GAN	VAE	Diffusion Model
 Main components	Generator and Discriminator	Encoder and Decoder	Noise and Denoising Network
 Working principle	Adversarial learning	Latent-space learning	Gradual noise removal
 Main advantage	Realistic generation	Structured latent representation	High-quality generation
 Application	Face generation	Image reconstruction	Text-to-image generation
 
-2.5.4 Introduction to Large Language Models (LLMs)
+### 2.5.4 Introduction to Large Language Models (LLMs)
 Large Language Models are advanced AI models trained on large amounts of text data to understand and generate human language.
 
 They use deep learning and Transformer-based architectures to process language and predict the next token in a sequence.
 
-Major capabilities:
+## Major capabilities:
 1. Answering questions.
 2. Generating articles and reports.
 3. Summarizing documents.
@@ -263,22 +263,22 @@ The LLM processes the given tokens and predicts suitable next tokens to generate
 
 
 
-Important terms:
+### Important terms:
 - Token: A small unit of text processed by a language model.
 - Parameter: A numerical value learned by the model during training.
 - Prompt: An instruction or input provided by the user.
 - Inference: The process of generating an output using a trained model.
 - Context Window: The amount of input and conversation information a model can process at a time.
-2.5.5 Architecture of Large Language Models
+## 2.5.5 Architecture of Large Language Models
 The Transformer architecture is one of the most important developments in modern AI. It was introduced in the research paper Attention Is All You Need by Vaswani and other researchers in 2017. 
 research.google+1
 
 
-A. Transformer Architecture
+## A. Transformer Architecture
 
 A Transformer is a neural network architecture that uses attention mechanisms to identify relationships between different tokens in a sequence.
 
-Major components:
+### Major components:
 1. Input Embedding: Converts tokens into numerical vectors.
 2. Positional Encoding: Provides information about the position of tokens.
 3. Self-Attention: Identifies relationships between tokens.
@@ -288,13 +288,13 @@ Major components:
 
 <img width="1008" height="580" alt="image" src="https://github.com/user-attachments/assets/2811df8d-39eb-470a-aa75-ae4ef7e9f972" />
 
-B. GPT Architecture
+## B. GPT Architecture
 
 GPT stands for Generative Pre-trained Transformer.
 
 It is a decoder-only Transformer architecture designed mainly for generating text.
 
-Working process:
+### Working process:
 1. Receives text input.
 2. Converts text into tokens.
 3. Processes tokens using Transformer decoder layers.
@@ -302,7 +302,7 @@ Working process:
 5. Repeats the process to generate a complete response.
 Example: Given the prompt "The sun rises in the", GPT may generate "east."
 
-C. BERT Architecture
+## C. BERT Architecture
 
 BERT stands for Bidirectional Encoder Representations from Transformers.
 
@@ -315,78 +315,78 @@ Comparison of Transformer, GPT, and BERT
 
 <img width="977" height="322" alt="image" src="https://github.com/user-attachments/assets/a15521bc-9ede-434f-96dd-3b13790a6648" />
 
-2.5.6 Training Process and Data Requirements
+### 2.5.6 Training Process and Data Requirements
 Training is the process through which a model learns patterns from large datasets and adjusts its parameters to improve its predictions.
 
-Stages of LLM training:
+## Stages of LLM training:
 
-Step 1: Data Collection
+### Step 1: Data Collection
 
 Large amounts of text, documents, code, and other relevant information are collected from suitable sources.
 
-Step 2: Data Preprocessing
+### Step 2: Data Preprocessing
 
 Unnecessary, duplicate, or poor-quality data is cleaned and organized.
 
-Step 3: Tokenization
+### Step 3: Tokenization
 
 Text is divided into smaller units called tokens.
 
-Step 4: Model Training / Pre-training
+### Step 4: Model Training / Pre-training
 
 The model learns language patterns and relationships by predicting tokens and adjusting its parameters.
 
-Step 5: Fine-Tuning and Alignment
+### Step 5: Fine-Tuning and Alignment
 
 The model is further trained or adapted to follow instructions and perform specific tasks. Human feedback or preference-based methods may also be used.
 
-Step 6: Evaluation
+### Step 6: Evaluation
 
 The model is tested for accuracy, reliability, safety, and performance.
 
-Step 7: Deployment
+### Step 7: Deployment
 
 The trained model is made available through applications, websites, or APIs.
 
 <img width="1035" height="572" alt="image" src="https://github.com/user-attachments/assets/f0fc11be-11a1-4506-9fdb-d257cc798545" />
 
 
-Data requirements:
+## Data requirements:
 - Large and diverse datasets.
 - High-quality and relevant information.
 - Properly processed and organized data.
 - Sufficient computational resources.
 - Suitable training and evaluation datasets.
 Example: An LLM trained using books, articles, and programming documents can learn language patterns and generate explanations or code.
-2.5.7 Applications of Generative AI
+#### 2.5.7 Applications of Generative AI
 Generative AI is used in various industries to automate tasks, improve productivity, and support creativity.
 
 <img width="992" height="667" alt="image" src="https://github.com/user-attachments/assets/1666447e-4a2b-430d-a802-25d4c41e1828" />
 
 
-Real-world example:
+### Real-world example:
 
 A student preparing a classroom presentation can use Generative AI to generate an introduction, organize important points, create diagrams, and prepare a conclusion.
 2.5.8 Limitations and Ethical Considerations
 Although Generative AI is useful, it has several limitations and ethical challenges.
 
-Limitations:
+### Limitations:
 1. Hallucination: AI may produce incorrect or misleading information.
 2. Data Dependency: The quality of output depends partly on the quality of training data.
 3. Computational Cost: Training large models requires significant computing resources.
 4. Limited Understanding: AI does not understand information in the same way humans do.
 5. Outdated Information: Models may not always have access to the latest information.
-Ethical Considerations:
+### Ethical Considerations:
 1. Privacy: Personal and confidential information must be protected.
 2. Bias: Biased training data can lead to unfair outputs.
 3. Copyright: AI-generated content can raise intellectual property concerns.
 4. Misinformation: AI can be misused to generate fake news and misleading content.
 5. Responsible Usage: Human supervision is important when using AI-generated information.
-Example: An AI system may generate an incorrect answer to a medical question. Therefore, its output must be verified by a qualified professional.
+## Example: An AI system may generate an incorrect answer to a medical question. Therefore, its output must be verified by a qualified professional.
 2.5.9 Impact of Scaling in Large Language Models
 Scaling refers to increasing the size and training resources of an AI model to improve its capabilities.
 
-The performance of LLMs is influenced by three major factors:
+## The performance of LLMs is influenced by three major factors:
 
 1. Model Size
 
@@ -402,20 +402,20 @@ More computing power enables larger models to be trained using more data and com
 
 <img width="1002" height="567" alt="image" src="https://github.com/user-attachments/assets/122bf6f3-090a-480b-81c9-86c92a08ccd4" />
 
-Benefits of Scaling:
+## Benefits of Scaling:
 - Improved language generation.
 - Better contextual understanding.
 - Improved performance on many complex tasks.
 - Better instruction following.
 - Improved few-shot learning capabilities.
-Comparison of GPT-3 and GPT-4
+   # Comparison of GPT-3 and GPT-4
 
 <img width="985" height="288" alt="image" src="https://github.com/user-attachments/assets/23be372f-48ac-45fd-9726-ef833cddd54d" />
 
-2.5.10 Future Trends in Generative AI
+### 2.5.10 Future Trends in Generative AI
 Generative AI is continuously developing and is expected to influence several areas of technology.
 
-Major future trends include:
+## Major future trends include:
 1. Multimodal AI: Systems that process text, images, audio, and video together.
 2. AI Agents: Systems capable of completing multiple tasks with limited human assistance.
 3. Personalized Education: AI-based learning systems that provide customized explanations.
@@ -427,7 +427,7 @@ Major future trends include:
 
 <img width="957" height="385" alt="image" src="https://github.com/user-attachments/assets/1ab36c76-7669-43b1-926e-142f9ce56c3e" />
 
-2.6 Conclusion
+# 2.6 Conclusion
 
 Generative AI is an important development in Artificial Intelligence that enables computers to create new content such as text, images, audio, videos, and computer programs.
 
@@ -439,7 +439,7 @@ Generative AI has significant applications in education, healthcare, business, s
 
 Thus, Generative AI and Large Language Models have the potential to transform future technologies when developed and used responsibly.
 
-2.7 References
+# 2.7 References
 1. Vaswani, A. et al. (2017). Attention Is All You Need. Advances in Neural Information Processing Systems. Research Paper.
 2. Goodfellow, I. et al. (2014). Generative Adversarial Nets. NeurIPS. Research Paper.
 3. Kingma, D. P. and Welling, M. (2014). Auto-Encoding Variational Bayes. Research Paper.
