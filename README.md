@@ -66,8 +66,8 @@ Step 7: Finalize and Export
 
 
 
-##STEP 1: DEFINE SCOPE AND OBJECTIVES
-1.1 Identify the Goal
+# STEP 1: DEFINE SCOPE AND OBJECTIVES
+## 1.1 Identify the Goal
 
 The main objective of this report is to develop a comprehensive understanding of Generative Artificial Intelligence and Large Language Models (LLMs). It explains their fundamental concepts, architectures, training processes, applications, advantages, limitations, ethical considerations, and future developments.
 
